@@ -1,0 +1,59 @@
+body {
+  background-color: #3c3434;
+  color: #fff;
+}
+
+.movieContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  padding: 20px;
+}
+
+.movieCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.movieCard:hover {
+  transform: scale(1.05);
+}
+
+.movieCover {
+  width: 85%;
+  border-radius: 4px;
+}
+
+.movieTitle {
+  display: block;
+  font-size: 1.2em;
+  margin: 8px 0;
+  color: #333;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.movieTitle:hover {
+  text-decoration: underline;
+}
+
+.moviePopularity {
+  color: #555;
+  font-size: 1.1em;
+}
+
+.movieRating {
+  color: #555;
+  font-size: 1.1em;
+}
+
+.movieRating span {
+  margin-left: 5px;
+}
